@@ -346,6 +346,13 @@ function CheckoutContent() {
                     onChange={(e) => setEmail(e.target.value)}
                     className="w-full h-11 px-3.5 rounded-xl bg-[#071324] border border-slate-700 text-sm text-white focus:border-[#D4AF37]"
                   />
+                  <span className="block text-[11px] text-amber-300/80 mt-1">
+                    {locale === 'ar'
+                      ? '✉️ سيتم إرسال تأكيد الحجز ورمز الرحلة فوراً إلى هذا البريد'
+                      : locale === 'en'
+                      ? '✉️ Instant booking voucher & confirmation will be sent here'
+                      : '✉️ Rezervasyon onay belgeniz ve takip kodunuz anında bu e-postaya iletilir'}
+                  </span>
                 </div>
 
                 {/* Flight No */}

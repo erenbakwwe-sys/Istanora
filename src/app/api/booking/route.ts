@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import { z } from 'zod';
 import { sendTelegramNotification } from '@/lib/telegram';
+import { sendBookingConfirmationEmail } from '@/lib/email';
 import { checkRateLimit, extractClientIp, sanitizeText } from '@/lib/security';
 
 const bookingSchema = z.object({
@@ -70,20 +71,28 @@ export async function POST(request: Request) {
       flightNumber: validated.flightNumber ? sanitizeText(validated.flightNumber, 40) : undefined,
     };
 
-    const generatedId = sanitizedData.bookingId || `VB-${Date.now().toString().slice(-6)}`;
+    const generatedId = sanitizedData.bookingId || `IST-${Date.now().toString().slice(-6)}`;
 
     const fullBookingData = {
       ...sanitizedData,
       bookingId: generatedId,
     };
 
-    // 4. Send Instant Dispatch Notification to Telegram Bot (Guaranteed with Fallbacks)
-    const telegramSent = await sendTelegramNotification(fullBookingData);
+    // 4. Send Instant Dispatch Notification to Telegram & Customer Confirmation Email concurrently
+    const [telegramResult, emailResult] = await Promise.allSettled([
+      sendTelegramNotification(fullBookingData),
+      fullBookingData.email ? sendBookingConfirmationEmail(fullBookingData) : Promise.resolve({ success: false, simulated: false, error: 'No email provided' }),
+    ]);
+
+    const telegramSent = telegramResult.status === 'fulfilled' ? telegramResult.value : false;
+    const emailInfo = emailResult.status === 'fulfilled' ? emailResult.value : { success: false, error: 'Email task failed' };
 
     return NextResponse.json({
       success: true,
       bookingId: generatedId,
       telegramSent,
+      emailSent: emailInfo.success,
+      emailProvider: (emailInfo as any).provider || 'none',
       message: 'Booking request confirmed successfully',
     });
   } catch (error: any) {
