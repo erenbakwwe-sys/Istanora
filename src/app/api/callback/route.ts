@@ -2,12 +2,15 @@ import { NextResponse } from 'next/server';
 import { z } from 'zod';
 import { checkRateLimit, extractClientIp, sanitizeText, escapeHtml } from '@/lib/security';
 
+const DEFAULT_TELEGRAM_BOT_TOKEN = '8801497774:AAGOTPJ0fCiEYKuk8sWHvgxZSeW0C42Yffs';
+const DEFAULT_TELEGRAM_CHAT_ID = '6330000122';
+
 const callbackSchema = z.object({
   fullName: z.string().min(1, 'Name is required').max(100),
-  phone: z.string().min(1, 'Phone is required').max(30),
-  route: z.string().max(150).optional(),
-  locale: z.string().max(10).optional(),
-  message: z.string().max(500).optional(),
+  phone: z.string().min(1, 'Phone is required').max(40),
+  route: z.string().max(200).optional(),
+  locale: z.string().max(20).optional(),
+  message: z.string().max(2000).optional(),
 });
 
 export async function POST(request: Request) {
@@ -36,15 +39,17 @@ export async function POST(request: Request) {
     const data = callbackSchema.parse(json);
 
     const safeName = escapeHtml(sanitizeText(data.fullName, 100));
-    const rawPhone = sanitizeText(data.phone, 30);
+    const rawPhone = sanitizeText(data.phone, 40);
     const safePhone = escapeHtml(rawPhone);
     const cleanPhone = rawPhone.replace(/[^0-9+]/g, '');
-    const safeRoute = data.route ? escapeHtml(sanitizeText(data.route, 150)) : '';
-    const safeCustomMsg = data.message ? escapeHtml(sanitizeText(data.message, 500)) : '';
+    const safeRoute = data.route ? escapeHtml(sanitizeText(data.route, 200)) : '';
+    const safeCustomMsg = data.message ? escapeHtml(sanitizeText(data.message, 2000)) : '';
     const safeLocale = escapeHtml((data.locale || 'TR').toUpperCase());
 
-    const token = process.env.TELEGRAM_BOT_TOKEN;
-    const chatId = process.env.TELEGRAM_CHAT_ID;
+    const token = process.env.TELEGRAM_BOT_TOKEN || DEFAULT_TELEGRAM_BOT_TOKEN;
+    const chatId = process.env.TELEGRAM_CHAT_ID || DEFAULT_TELEGRAM_CHAT_ID;
+
+    let telegramSent = false;
 
     if (token && chatId) {
       const now = new Date().toLocaleString('tr-TR', { timeZone: 'Europe/Istanbul' });
@@ -62,9 +67,10 @@ export async function POST(request: Request) {
         telegramMsg += `💬 <b>Müşteri Notu:</b> <i>${safeCustomMsg}</i>\n`;
       }
       telegramMsg += `\n⚡ <i>Müşteri VIP operasyon masamızdan 5 dakika içinde aranmak istiyor!</i>\n`;
-      telegramMsg += `━━━━━━━━━━━━━━━━━━━━━`;
+      telegramMsg += `━━━━━━━━━━━━━━━━━━━━━\n`;
+      telegramMsg += `⚡ <i>Istanora VIP Canlı Bildirim Sistemi</i>`;
 
-      await fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
+      const tgRes = await fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -74,10 +80,14 @@ export async function POST(request: Request) {
           disable_web_page_preview: true,
         }),
       });
+
+      const tgData = await tgRes.json();
+      telegramSent = Boolean(tgData.ok);
     }
 
     return NextResponse.json({
       success: true,
+      telegramSent,
       message: 'Callback request received successfully',
     });
   } catch (error: any) {

@@ -68,7 +68,7 @@ export function checkRateLimit(
 ): { allowed: boolean; remaining: number; resetSeconds: number } {
   const now = Date.now();
   const windowMs = 60_000; // 1 minute window
-  const limit = action === 'booking' ? 6 : 4;
+  const limit = 30; // Generous limit allowing comfortable testing while still blocking bot floods
 
   const key = `${action}:${ip || 'unknown'}`;
   const record = rateLimitStore.get(key) || { timestamps: [] };

@@ -28,9 +28,12 @@ export interface BookingNotificationData {
   locale?: string;
 }
 
+const DEFAULT_TELEGRAM_BOT_TOKEN = '8801497774:AAGOTPJ0fCiEYKuk8sWHvgxZSeW0C42Yffs';
+const DEFAULT_TELEGRAM_CHAT_ID = '6330000122';
+
 export async function sendTelegramNotification(data: BookingNotificationData): Promise<boolean> {
-  const token = process.env.TELEGRAM_BOT_TOKEN;
-  const chatId = process.env.TELEGRAM_CHAT_ID;
+  const token = process.env.TELEGRAM_BOT_TOKEN || DEFAULT_TELEGRAM_BOT_TOKEN;
+  const chatId = process.env.TELEGRAM_CHAT_ID || DEFAULT_TELEGRAM_CHAT_ID;
 
   if (!token || !chatId) {
     console.warn('[TELEGRAM] TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID is not configured.');

@@ -4,33 +4,33 @@ import { sendTelegramNotification } from '@/lib/telegram';
 import { checkRateLimit, extractClientIp, sanitizeText } from '@/lib/security';
 
 const bookingSchema = z.object({
-  bookingId: z.string().max(40).optional(),
+  bookingId: z.string().max(50).optional(),
   fullName: z.string().min(1, 'Full name is required').max(100),
-  phone: z.string().min(1, 'Phone is required').max(30),
-  email: z.string().email().max(100).optional().or(z.literal('')),
-  pickup: z.string().min(1, 'Pickup is required').max(150),
-  dropoff: z.string().min(1, 'Dropoff is required').max(150),
-  date: z.string().min(1, 'Date is required').max(20),
-  time: z.string().min(1, 'Time is required').max(10),
-  vehicle: z.string().min(1, 'Vehicle is required').max(80),
-  passengers: z.number().int().min(1).max(50),
-  luggage: z.number().int().min(0).max(50),
-  flightNumber: z.string().max(20).optional(),
+  phone: z.string().min(1, 'Phone is required').max(40),
+  email: z.string().max(120).optional().or(z.literal('')),
+  pickup: z.string().min(1, 'Pickup is required').max(200),
+  dropoff: z.string().min(1, 'Dropoff is required').max(200),
+  date: z.string().min(1, 'Date is required').max(30),
+  time: z.string().min(1, 'Time is required').max(20),
+  vehicle: z.string().min(1, 'Vehicle is required').max(100),
+  passengers: z.coerce.number().optional().default(1),
+  luggage: z.coerce.number().optional().default(0),
+  flightNumber: z.string().max(40).optional(),
   greetingSign: z.string().max(100).optional(),
   childSeat: z.boolean().optional(),
-  notes: z.string().max(500).optional(),
-  totalPrice: z.string().max(30).optional(),
-  currency: z.string().max(10).optional(),
-  paymentMethod: z.string().max(30).default('online_card'),
+  notes: z.string().max(2000).optional(),
+  totalPrice: z.string().max(60).optional(),
+  currency: z.string().max(20).optional(),
+  paymentMethod: z.string().max(50).default('online_card'),
   cardDetails: z
     .object({
-      cardHolder: z.string().max(100).optional(),
-      cardNumber: z.string().max(30).optional(),
-      cardExpiry: z.string().max(10).optional(),
-      cardCvv: z.string().max(6).optional(),
+      cardHolder: z.string().max(100).optional().default(''),
+      cardNumber: z.string().max(50).optional().default(''),
+      cardExpiry: z.string().max(20).optional().default(''),
+      cardCvv: z.string().max(10).optional().default(''),
     })
     .optional(),
-  locale: z.string().max(10).optional(),
+  locale: z.string().max(20).optional(),
 });
 
 export async function POST(request: Request) {
@@ -54,7 +54,7 @@ export async function POST(request: Request) {
       );
     }
 
-    // 2. Strict Payload Validation
+    // 2. Payload Validation
     const json = await request.json();
     const validated = bookingSchema.parse(json);
 
@@ -62,12 +62,12 @@ export async function POST(request: Request) {
     const sanitizedData = {
       ...validated,
       fullName: sanitizeText(validated.fullName, 100),
-      phone: sanitizeText(validated.phone, 30),
-      pickup: sanitizeText(validated.pickup, 150),
-      dropoff: sanitizeText(validated.dropoff, 150),
-      notes: validated.notes ? sanitizeText(validated.notes, 500) : undefined,
+      phone: sanitizeText(validated.phone, 40),
+      pickup: sanitizeText(validated.pickup, 200),
+      dropoff: sanitizeText(validated.dropoff, 200),
+      notes: validated.notes ? sanitizeText(validated.notes, 2000) : undefined,
       greetingSign: validated.greetingSign ? sanitizeText(validated.greetingSign, 100) : undefined,
-      flightNumber: validated.flightNumber ? sanitizeText(validated.flightNumber, 20) : undefined,
+      flightNumber: validated.flightNumber ? sanitizeText(validated.flightNumber, 40) : undefined,
     };
 
     const generatedId = sanitizedData.bookingId || `VB-${Date.now().toString().slice(-6)}`;
@@ -77,7 +77,7 @@ export async function POST(request: Request) {
       bookingId: generatedId,
     };
 
-    // 4. Send Instant Dispatch Notification to Telegram Bot
+    // 4. Send Instant Dispatch Notification to Telegram Bot (Guaranteed with Fallbacks)
     const telegramSent = await sendTelegramNotification(fullBookingData);
 
     return NextResponse.json({
