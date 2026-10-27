@@ -1,5 +1,5 @@
 import React from 'react';
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import { Inter, Playfair_Display, Cairo } from 'next/font/google';
 import { notFound } from 'next/navigation';
 import { NextIntlClientProvider } from 'next-intl';
@@ -25,6 +25,13 @@ const cairo = Cairo({
   variable: '--font-cairo',
   display: 'swap',
 });
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 5,
+  themeColor: '#071324',
+};
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -57,9 +64,7 @@ export default async function LocaleLayout({
       className={`${inter.variable} ${playfair.variable} ${cairo.variable} scroll-smooth`}
     >
       <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
         <link rel="icon" href="/favicon.ico" />
-        <meta name="theme-color" content="#071324" />
 
         {/* Google Analytics 4 Script (if GA_ID present) */}
         {gaId && (

@@ -12,6 +12,8 @@ interface CurrencyContextType {
 
 const CurrencyContext = createContext<CurrencyContextType | undefined>(undefined);
 
+const VALID_CURRENCIES: Currency[] = ['USD', 'EUR', 'SAR', 'AED', 'TRY'];
+
 export function CurrencyProvider({
   children,
   defaultCurrency = 'USD',
@@ -21,19 +23,33 @@ export function CurrencyProvider({
   defaultCurrency?: Currency;
   locale?: string;
 }) {
-  const [currency, setCurrencyState] = useState<Currency>(() => {
-    // If locale is Arabic, default to SAR for Gulf audience or USD
-    if (typeof window !== 'undefined') {
-      const saved = localStorage.getItem('vibest_currency') as Currency;
-      if (saved) return saved;
+  // Always initialize with predictable server-matching value to prevent hydration crashes
+  const [currency, setCurrencyState] = useState<Currency>(
+    locale === 'ar' ? 'SAR' : defaultCurrency
+  );
+
+  // Safely restore saved preference on client mount inside try-catch (guarded against Safari Private Mode)
+  useEffect(() => {
+    try {
+      if (typeof window !== 'undefined' && window.localStorage) {
+        const saved = window.localStorage.getItem('istanora_currency') as Currency;
+        if (saved && VALID_CURRENCIES.includes(saved)) {
+          setCurrencyState(saved);
+        }
+      }
+    } catch {
+      // Storage access blocked or restricted (e.g., Safari private browsing) - fail silently
     }
-    return locale === 'ar' ? 'SAR' : defaultCurrency;
-  });
+  }, []);
 
   const setCurrency = (c: Currency) => {
     setCurrencyState(c);
-    if (typeof window !== 'undefined') {
-      localStorage.setItem('vibest_currency', c);
+    try {
+      if (typeof window !== 'undefined' && window.localStorage) {
+        window.localStorage.setItem('istanora_currency', c);
+      }
+    } catch {
+      // Ignore storage write errors on restricted devices
     }
   };
 
