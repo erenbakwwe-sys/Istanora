@@ -1,0 +1,154 @@
+[
+  {
+    "id": "taksim",
+    "slug": "taksim-transfer",
+    "name": {
+      "ar": "تقسيم وبيوغلو",
+      "en": "Taksim & Beyoğlu",
+      "tr": "Taksim & Beyoğlu"
+    },
+    "description": {
+      "ar": "قلب إسطنبول النابض، شارع الاستقلال، برج غلاطة وأرقى الفنادق العالمية.",
+      "en": "The pulsating heart of Istanbul, Istiklal Street, Galata Tower and top luxury hotels.",
+      "tr": "İstanbul'un kalbi, İstiklal Caddesi, Galata Kulesi ve uluslararası lüks oteller."
+    },
+    "category": "istanbul",
+    "startingPriceUSD": 29,
+    "distanceKm": 42,
+    "duration": "40 min",
+    "image": "/images/destinations/taksim.svg"
+  },
+  {
+    "id": "sultanahmet",
+    "slug": "sultanahmet-transfer",
+    "name": {
+      "ar": "السلطان أحمد والفاتح",
+      "en": "Sultanahmet & Old City",
+      "tr": "Sultanahmet & Tarihi Yarımada"
+    },
+    "description": {
+      "ar": "المدينة التاريخية، آيا صوفيا، المسجد الأزرق، قصر توبكابي والبازار الكبير.",
+      "en": "The historic peninsula, Hagia Sophia, Blue Mosque, Topkapi Palace & Grand Bazaar.",
+      "tr": "Tarihi yarımada, Ayasofya, Sultanahmet Camii, Topkapı Sarayı ve Kapalıçarşı."
+    },
+    "category": "istanbul",
+    "startingPriceUSD": 29,
+    "distanceKm": 46,
+    "duration": "45 min",
+    "image": "/images/destinations/sultanahmet.svg"
+  },
+  {
+    "id": "besiktas",
+    "slug": "besiktas-transfer",
+    "name": {
+      "ar": "بشكتاش وأورتاكوي والبوسفور",
+      "en": "Beşiktaş, Ortaköy & Bosphorus",
+      "tr": "Beşiktaş & Boğaz Hattı"
+    },
+    "description": {
+      "ar": "إطلالات البوسفور الساحرة، قصر دولما بهجة، أفخم المنتجعات ومطاعم الأسماك الراقية.",
+      "en": "Breathtaking Bosphorus shores, Dolmabahçe Palace, Four Seasons and seaside dining.",
+      "tr": "Boğaz manzarası, Dolmabahçe Sarayı, lüks sahil otelleri ve seçkin restoranlar."
+    },
+    "category": "istanbul",
+    "startingPriceUSD": 29,
+    "distanceKm": 41,
+    "duration": "40 min",
+    "image": "/images/destinations/besiktas.svg"
+  },
+  {
+    "id": "sisli",
+    "slug": "sisli-transfer",
+    "name": {
+      "ar": "شيشلي ونيشانتاشي ومجيدية كوي",
+      "en": "Şişli & Nişantaşı",
+      "tr": "Şişli & Nişantaşı"
+    },
+    "description": {
+      "ar": "عاصمة الموضة والتسوق الفاخر، مول جواهر، أشهر الماركات والمستشفيات الطبية الكبرى.",
+      "en": "High fashion capital, Cevahir Mall, luxury boutique shopping and premier medical centers.",
+      "tr": "Moda ve lüks alışveriş merkezi, Cevahir AVM ve önde gelen sağlık kuruluşları."
+    },
+    "category": "istanbul",
+    "startingPriceUSD": 29,
+    "distanceKm": 38,
+    "duration": "35 min",
+    "image": "/images/destinations/sisli.svg"
+  },
+  {
+    "id": "kadikoy",
+    "slug": "kadikoy-transfer",
+    "name": {
+      "ar": "كاديكوي والجانب الآسيوي",
+      "en": "Kadıköy & Asian Side",
+      "tr": "Kadıköy & Anadolu Yakası"
+    },
+    "description": {
+      "ar": "شارع بغداد الشهير، كورنيش مودا، ساحل أوسكودار وبرج الفتاة.",
+      "en": "Famous Baghdad Avenue, Moda seaside promenade, and historic Maiden's Tower.",
+      "tr": "Bağdat Caddesi, Moda sahili, Üsküdar ve eşsiz Kız Kulesi manzarası."
+    },
+    "category": "istanbul",
+    "startingPriceUSD": 24,
+    "distanceKm": 56,
+    "duration": "55 min",
+    "image": "/images/destinations/kadikoy.svg"
+  },
+  {
+    "id": "sariyer",
+    "slug": "sariyer-transfer",
+    "name": {
+      "ar": "ساريير وليفنت ومسلك",
+      "en": "Sarıyer, Levent & Maslak",
+      "tr": "Sarıyer, Levent & Maslak"
+    },
+    "description": {
+      "ar": "مول استينيا بارك الراقي، وادي إسطنبول، القصور المطلة على البوسفور والهدوء الطبيعي.",
+      "en": "IstinyePark luxury mall, Vadistanbul, lavish Bosphorus mansions and green scenery.",
+      "tr": "İstinyePark, Vadistanbul, Boğaz yalıları ve modern iş merkezleri."
+    },
+    "category": "istanbul",
+    "startingPriceUSD": 29,
+    "distanceKm": 36,
+    "duration": "35 min",
+    "image": "/images/destinations/sariyer.svg"
+  },
+  {
+    "id": "sapanca",
+    "slug": "sapanca-tour",
+    "name": {
+      "ar": "صبنجة ومعشوقية والمحمودية",
+      "en": "Sapanca & Maşukiye Day Tour",
+      "tr": "Sapanca & Maşukiye Turu"
+    },
+    "description": {
+      "ar": "بحيرة صبنجة الخلابة، شلالات معشوقية، ركوب الدبابات الجبلية وأجواء الطبيعة النقية.",
+      "en": "Mesmerizing Sapanca lake, waterfall restaurants, ATV safari and pure mountain air.",
+      "tr": "Göl manzarası, Maşukiye şelaleleri, doğa sporları ve huzur dolu yaylalar."
+    },
+    "category": "daytrip",
+    "startingPriceUSD": 95,
+    "distanceKm": 140,
+    "duration": "110 min",
+    "image": "/images/destinations/sapanca.svg"
+  },
+  {
+    "id": "bursa",
+    "slug": "bursa-tour",
+    "name": {
+      "ar": "بورصة الخضراء وجبل أولوداغ",
+      "en": "Green Bursa & Mount Uludağ",
+      "tr": "Bursa & Uludağ Turu"
+    },
+    "description": {
+      "ar": "تلفريك أولوداغ الأطول عالمياً، الشجرة المعمرة، أسواق الحرير ومصانع الحلقوم والعسل.",
+      "en": "Longest cable car, Mount Uludağ summits, silk bazaar, and authentic Turkish delights.",
+      "tr": "Teleferik, Uludağ zirvesi, Tarihi Çınar, İpek Hanı ve meşhur İskender lezzeti."
+    },
+    "category": "daytrip",
+    "startingPriceUSD": 119,
+    "distanceKm": 160,
+    "duration": "130 min",
+    "image": "/images/destinations/bursa.svg"
+  }
+]

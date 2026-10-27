@@ -1,0 +1,80 @@
+[
+  {
+    "id": "how-to-meet",
+    "question": {
+      "ar": "كيف سأجد السائق عند وصولي إلى المطار؟",
+      "en": "How will I meet my chauffeur at the airport?",
+      "tr": "Havalimanına vardığımda şoförümü nasıl bulacağım?"
+    },
+    "answer": {
+      "ar": "بمجرد خروجك من بوابة استلام الأمتعة إلى صالة الوصول العامة، ستجد ممثلنا أو سائقك الخاص بانتظارك رافعاً لافتة واضحة تحمل اسمك الكريم أو شعار VIBEST TRIPS. كما سنرسل لك رقم هاتف السائق وصورة نقطة اللقاء عبر واتساب قبل هبوط الطائرة.",
+      "en": "Upon exiting the baggage claim area into the main arrival hall, our representative or chauffeur will be waiting for you holding a clear greeting sign with your name or VIBEST TRIPS logo. You will also receive your driver's direct contact and meeting spot instructions via WhatsApp beforehand.",
+      "tr": "Bagajınızı alıp çıkış kapısından geçtiğinizde, şoförümüz sizi adınızın yazılı olduğu özel karşılama panosuyla bekliyor olacaktır. Ayrıca uçuşunuz öncesinde şoförün iletişim bilgileri WhatsApp'tan iletilir."
+    }
+  },
+  {
+    "id": "flight-delay",
+    "question": {
+      "ar": "ماذا يحدث في حال تأخرت رحلتي الجوية أو حدث تقديم في موعدها؟",
+      "en": "What happens if my flight is delayed?",
+      "tr": "Uçağım rötar yaparsa ne olur?"
+    },
+    "answer": {
+      "ar": "نحن نقوم بتتبع رحلتك الجوية مباشرة عبر أنظمة رادار الطيران برقم الرحلة الذي تزودنا به. إذا تأخرت الرحلة، يتم تعديل موعد استقبالك تلقائياً دون أي رسوم إضافية، وننتظركم مجاناً حتى 60 دقيقة بعد هبوط الطائرة الفعلي.",
+      "en": "We monitor your flight in real time using the flight number provided. If your flight is delayed or lands early, we automatically adjust our dispatch schedule at zero extra cost. Free waiting time of up to 60 minutes after actual landing is included.",
+      "tr": "Uçuş numaranız üzerinden uçağınız canlı olarak takip edilir. Rötar durumunda karşılama saati otomatik güncellenir ve inişten sonra 60 dakikaya kadar ücretsiz bekleme hakkınız mevcuttur."
+    }
+  },
+  {
+    "id": "payment-methods",
+    "question": {
+      "ar": "ما هي طرق الدفع المتاحة لتأكيد الحجز؟",
+      "en": "What payment methods are available to confirm the booking?",
+      "tr": "Hangi ödeme yöntemleri geçerlidir?"
+    },
+    "answer": {
+      "ar": "يمكنكم إتمام الدفع وتأكيد الحجز بكل أمان عبر بطاقات الائتمان ومدى والخصم المباشر (Visa, Mastercard) المحمية بتشفير 256-bit SSL العالمي. كما يجري تفعيل الدفع عبر بايبال قريباً.",
+      "en": "You can securely confirm and pay for your booking online using major credit/debit cards (Visa, Mastercard) with 256-bit SSL protection. PayPal payment integration is coming very soon.",
+      "tr": "Rezervasyonunuzu 256-bit SSL korumalı sistemimiz üzerinden Kredi Kartı ve Banka Kartı (Visa, Mastercard) ile anında güvenle tamamlayabilirsiniz. PayPal ile ödeme altyapımız ise çok yakında aktif olacaktır."
+    }
+  },
+  {
+    "id": "cancellation-policy",
+    "question": {
+      "ar": "ما هي سياسة الإلغاء أو تعديل موعد الرحلة؟",
+      "en": "What is the cancellation or modification policy?",
+      "tr": "İptal ve değişiklik şartları nelerdir?"
+    },
+    "answer": {
+      "ar": "يمكنك إلغاء أو تعديل حجزك مجاناً بالكامل دون أي رسوم حتى قبل 12-24 ساعة من موعد الرحلة، بمجرد إرسال رسالة سريعة لنا عبر واتساب.",
+      "en": "You can modify or cancel your booking free of charge up to 12-24 hours prior to scheduled pickup time with a simple WhatsApp message.",
+      "tr": "Rezervasyonunuzu transfer saatinden 12-24 saat öncesine kadar WhatsApp üzerinden bize bildirerek hiçbir ceza ödemeden ücretsiz iptal edebilir veya saatini değiştirebilirsiniz."
+    }
+  },
+  {
+    "id": "child-seats",
+    "question": {
+      "ar": "هل تتوفر كراسي أمان للأطفال والرضّع؟",
+      "en": "Are child / baby car seats available?",
+      "tr": "Çocuk ve bebek oto koltuğu sağlanıyor mu?"
+    },
+    "answer": {
+      "ar": "نعم بكل تأكيد! نوفر كراسي أطفال مريحة ومعقمة مجاناً لسلامة أطفالكم. كل ما عليك هو تفعيل خيار كرسي الأطفال أثناء الحجز لنجهزه في السيارة قبل وصولكم.",
+      "en": "Yes, absolutely! We provide clean and sanitized booster and baby seats upon request free of charge. Simply check the child seat option when booking.",
+      "tr": "Evet, minik misafirlerimizin güvenliği için bebek ve çocuk oto koltuğu talep üzerine ücretsiz olarak temin edilir ve aracınıza önceden monte edilir."
+    }
+  },
+  {
+    "id": "luggage-limits",
+    "question": {
+      "ar": "كم عدد الحقائب المسموح بها في سيارات مرسيدس فيتو؟",
+      "en": "How much luggage can fit in a Mercedes Vito VIP?",
+      "tr": "Mercedes Vito VIP araçta bagaj kapasitesi nedir?"
+    },
+    "answer": {
+      "ar": "تتسع سيارة مرسيدس فيتو VIP لـ 6 ركاب مع 6 حقائب سفر كبيرة الحجم بالإضافة للحقائب اليدوية. إذا كان عدد الأفراد أو الحقائب أكبر، نوصي باختيار مرسيدس سبprinter VIP التي تتسع حتى 15 حقيبة كبيرة.",
+      "en": "A Mercedes Vito VIP accommodates comfortably up to 6 passengers and 6 large check-in suitcases plus hand luggage. For larger families or excessive baggage, our Mercedes Sprinter VIP handles up to 15 large suitcases.",
+      "tr": "Mercedes Vito VIP aracımız 6 yolcu ve 6 büyük boy valizi rahatlıkla alır. Daha kalabalık gruplar için 15 valize kadar alan sunan Mercedes Sprinter VIP aracımız önerilir."
+    }
+  }
+]

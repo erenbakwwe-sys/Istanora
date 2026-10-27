@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "name": "أبو فهد العتيبي",
+    "location": "الرياض، المملكة العربية السعودية",
+    "countryCode": "SA",
+    "rating": 5,
+    "date": "2026-09-18",
+    "text": {
+      "ar": "ما شاء الله تبارك الله، من أفضل خدمات التوصيل في إسطنبول بلا منازع. السائق كان ينتظرنا باللوحة عند بوابة الخروج، سيارة المرسيدس فيتو قمة في النظافة والفخامة والإنترنت والضيافة متوفرة. تعامل راقي جداً وأنصح به بشدة لكل عائلة خليجية.",
+      "en": "Flawless VIP service in Istanbul! The driver was waiting at gate 14 holding my name. The Mercedes Vito was immaculate, smelling fresh with fast Wi-Fi and chilled water. Highly recommended for Gulf families.",
+      "tr": "İstanbul'da aldığımız en kusursuz transfer hizmetiydi. Şoförümüz kapıda isimle bekliyordu, Vito araç pırıl pırıl ve çok konforluydu."
+    }
+  },
+  {
+    "id": 2,
+    "name": "م. سلطان المنصوري",
+    "location": "أبوظبي، الإمارات العربية المتحدة",
+    "countryCode": "AE",
+    "rating": 5,
+    "date": "2026-10-02",
+    "text": {
+      "ar": "خدمة خمس نجوم بكل المقاييس. رحلتنا تأخرت قرابة ساعة ونصف وكانوا متواصلين معنا على الواتساب أولاً بأول دون أي تكلفة إضافية. قيادة آمنة وسلسة جداً والسعر ثابت كما اتفقنا تماماً.",
+      "en": "Five-star service from start to finish. Our flight was delayed by over an hour, yet they monitored it live and welcomed us with a big smile. No hidden fees, strictly fixed price.",
+      "tr": "Uçağımız 1 saatten fazla rötar yapmasına rağmen bizi sabırla beklediler ve tek kuruş ekstra talep etmediler. Çok profesyonel."
+    }
+  },
+  {
+    "id": 3,
+    "name": "د. نورة الصباح",
+    "location": "الكويت، دولة الكويت",
+    "countryCode": "KW",
+    "rating": 5,
+    "date": "2026-10-12",
+    "text": {
+      "ar": "حجزنا معهم الاستقبال من مطار إسطنبول وجولة يوم كامل في صبنجة. السائق كان محترم جداً، والسيارة واسعة وكراسيها مريحة جداً للأطفال وكبار السن. خدمة عملاء سريعة الرد ومتعاونين للغاية.",
+      "en": "Booked airport transfer plus a full-day tour to Sapanca. Extremely courteous chauffeur, child car seats were already installed as requested. Responsive WhatsApp support.",
+      "tr": "Havalimanı karşılamanın yanı sıra Sapanca turunu da kendileriyle yaptık. Bebek koltuğu hazır şekilde bekliyordu, araç çok ferahtı."
+    }
+  },
+  {
+    "id": 4,
+    "name": "غانم الكواري",
+    "location": "الدوحة، دولة قطر",
+    "countryCode": "QA",
+    "rating": 5,
+    "date": "2026-10-20",
+    "text": {
+      "ar": "أفضل ميزة هي المصداقية والالتزام بالوقت. ما فيه أي مفاجآت بالأسعار، والسيارة الفيتو مجهزة بشاشات وواي فاي سريع. بإذن الله خياري الدائم في كل زيارة لتركيا.",
+      "en": "Punctuality and total transparency. The Wi-Fi inside the Vito was super fast, and the partition gives great privacy. Will definitely book again on my next trip to Istanbul.",
+      "tr": "Zamanlama harika, araç içi donanım ve ara bölme üst düzey mahremiyet sağlıyor. Her seyahatimde tercihim VIBEST TRIPS olacak."
+    }
+  },
+  {
+    "id": 5,
+    "name": "Alexander Wright",
+    "location": "London, United Kingdom",
+    "countryCode": "GB",
+    "rating": 5,
+    "date": "2026-10-24",
+    "text": {
+      "ar": "تجربة استثنائية من مطار إسطنبول إلى شيشلي. سيارة فاخرة وسائق محترف يتحدث الإنجليزية ويسهل كل شيء.",
+      "en": "Top-notch VIP chauffeur service! Booking was done in less than 2 minutes via WhatsApp. The driver held my name sign right at arrival. Smooth ride directly to our hotel in Nişantaşı.",
+      "tr": "Harika bir VIP transfer deneyimi. WhatsApp üzerinden 2 dakikada ayarladık, Nişantaşı'ndaki otelimize konforla ulaştık."
+    }
+  }
+]

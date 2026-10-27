@@ -1,0 +1,257 @@
+{
+  "currencyRates": {
+    "USD": 1,
+    "EUR": 0.92,
+    "SAR": 3.75,
+    "AED": 3.67,
+    "TRY": 34.50
+  },
+  "currencySymbols": {
+    "USD": "$",
+    "EUR": "€",
+    "SAR": "SAR",
+    "AED": "AED",
+    "TRY": "₺"
+  },
+  "surcharges": {
+    "nightHoursMultiplier": 1.10,
+    "childSeatFeeUSD": 0,
+    "extraStopFeeUSD": 10
+  },
+  "routes": [
+    {
+      "id": "ist-taksim",
+      "from": "IST",
+      "to": "taksim",
+      "name": {
+        "ar": "مطار إسطنبول (IST) ⟵⟶ تقسيم / بيوغلو",
+        "en": "Istanbul Airport (IST) ⟵⟶ Taksim / Beyoğlu",
+        "tr": "İstanbul Havalimanı (IST) ⟵⟶ Taksim / Beyoğlu"
+      },
+      "distanceKm": 42,
+      "durationMin": 40,
+      "category": "istanbul",
+      "prices": {
+        "vito": 29,
+        "sprinter": 49,
+        "maybach": 89
+      }
+    },
+    {
+      "id": "ist-sultanahmet",
+      "from": "IST",
+      "to": "sultanahmet",
+      "name": {
+        "ar": "مطار إسطنبول (IST) ⟵⟶ السلطان أحمد / الفاتح",
+        "en": "Istanbul Airport (IST) ⟵⟶ Sultanahmet / Fatih",
+        "tr": "İstanbul Havalimanı (IST) ⟵⟶ Sultanahmet / Fatih"
+      },
+      "distanceKm": 46,
+      "durationMin": 45,
+      "category": "istanbul",
+      "prices": {
+        "vito": 29,
+        "sprinter": 49,
+        "maybach": 89
+      }
+    },
+    {
+      "id": "ist-besiktas",
+      "from": "IST",
+      "to": "besiktas",
+      "name": {
+        "ar": "مطار إسطنبول (IST) ⟵⟶ بشكتاش / أورتاكوي / البوسفور",
+        "en": "Istanbul Airport (IST) ⟵⟶ Beşiktaş / Ortaköy / Bosphorus",
+        "tr": "İstanbul Havalimanı (IST) ⟵⟶ Beşiktaş / Ortaköy / Boğaz"
+      },
+      "distanceKm": 41,
+      "durationMin": 40,
+      "category": "istanbul",
+      "prices": {
+        "vito": 29,
+        "sprinter": 49,
+        "maybach": 89
+      }
+    },
+    {
+      "id": "ist-sisli",
+      "from": "IST",
+      "to": "sisli",
+      "name": {
+        "ar": "مطار إسطنبول (IST) ⟵⟶ شيشلي / نيشانتاشي / مجيدية كوي",
+        "en": "Istanbul Airport (IST) ⟵⟶ Şişli / Nişantaşı / Mecidiyeköy",
+        "tr": "İstanbul Havalimanı (IST) ⟵⟶ Şişli / Nişantaşı / Mecidiyeköy"
+      },
+      "distanceKm": 38,
+      "durationMin": 35,
+      "category": "istanbul",
+      "prices": {
+        "vito": 29,
+        "sprinter": 49,
+        "maybach": 89
+      }
+    },
+    {
+      "id": "ist-kadikoy",
+      "from": "IST",
+      "to": "kadikoy",
+      "name": {
+        "ar": "مطار إسطنبول (IST) ⟵⟶ كاديكوي / الجانب الآسيوي / أوسكودار",
+        "en": "Istanbul Airport (IST) ⟵⟶ Kadıköy / Üsküdar / Asian Side",
+        "tr": "İstanbul Havalimanı (IST) ⟵⟶ Kadıköy / Üsküdar / Anadolu Yakası"
+      },
+      "distanceKm": 56,
+      "durationMin": 55,
+      "category": "istanbul",
+      "prices": {
+        "vito": 34,
+        "sprinter": 55,
+        "maybach": 98
+      }
+    },
+    {
+      "id": "ist-bakirkoy",
+      "from": "IST",
+      "to": "bakirkoy",
+      "name": {
+        "ar": "مطار إسطنبول (IST) ⟵⟶ باكركوي / أتاكوي / فلوريا",
+        "en": "Istanbul Airport (IST) ⟵⟶ Bakırköy / Ataköy / Florya",
+        "tr": "İstanbul Havalimanı (IST) ⟵⟶ Bakırköy / Ataköy / Florya"
+      },
+      "distanceKm": 48,
+      "durationMin": 45,
+      "category": "istanbul",
+      "prices": {
+        "vito": 28,
+        "sprinter": 48,
+        "maybach": 88
+      }
+    },
+    {
+      "id": "ist-sariyer",
+      "from": "IST",
+      "to": "sariyer",
+      "name": {
+        "ar": "مطار إسطنبول (IST) ⟵⟶ ساريير / ليفنت / مسلك / وادي إسطنبول",
+        "en": "Istanbul Airport (IST) ⟵⟶ Sarıyer / Levent / Maslak / Vadistanbul",
+        "tr": "İstanbul Havalimanı (IST) ⟵⟶ Sarıyer / Levent / Maslak / Vadistanbul"
+      },
+      "distanceKm": 36,
+      "durationMin": 35,
+      "category": "istanbul",
+      "prices": {
+        "vito": 29,
+        "sprinter": 49,
+        "maybach": 89
+      }
+    },
+    {
+      "id": "saw-taksim",
+      "from": "SAW",
+      "to": "taksim",
+      "name": {
+        "ar": "مطار صبيحة (SAW) ⟵⟶ تقسيم / بيوغلو",
+        "en": "Sabiha Gökçen Airport (SAW) ⟵⟶ Taksim / Beyoğlu",
+        "tr": "Sabiha Gökçen Havalimanı (SAW) ⟵⟶ Taksim / Beyoğlu"
+      },
+      "distanceKm": 44,
+      "durationMin": 50,
+      "category": "istanbul",
+      "prices": {
+        "vito": 32,
+        "sprinter": 52,
+        "maybach": 95
+      }
+    },
+    {
+      "id": "saw-sultanahmet",
+      "from": "SAW",
+      "to": "sultanahmet",
+      "name": {
+        "ar": "مطار صبيحة (SAW) ⟵⟶ السلطان أحمد / الفاتح",
+        "en": "Sabiha Gökçen Airport (SAW) ⟵⟶ Sultanahmet / Fatih",
+        "tr": "Sabiha Gökçen Havalimanı (SAW) ⟵⟶ Sultanahmet / Fatih"
+      },
+      "distanceKm": 48,
+      "durationMin": 55,
+      "category": "istanbul",
+      "prices": {
+        "vito": 32,
+        "sprinter": 52,
+        "maybach": 95
+      }
+    },
+    {
+      "id": "saw-kadikoy",
+      "from": "SAW",
+      "to": "kadikoy",
+      "name": {
+        "ar": "مطار صبيحة (SAW) ⟵⟶ كاديكوي / الجانب الآسيوي",
+        "en": "Sabiha Gökçen Airport (SAW) ⟵⟶ Kadıköy / Asian Side",
+        "tr": "Sabiha Gökçen Havalimanı (SAW) ⟵⟶ Kadıköy / Anadolu Yakası"
+      },
+      "distanceKm": 32,
+      "durationMin": 35,
+      "category": "istanbul",
+      "prices": {
+        "vito": 24,
+        "sprinter": 39,
+        "maybach": 79
+      }
+    },
+    {
+      "id": "ist-sapanca",
+      "from": "IST",
+      "to": "sapanca",
+      "name": {
+        "ar": "إسطنبول ⟵⟶ رحلة صبنجة ومعشوقية (ذهاب أو جولة يومية)",
+        "en": "Istanbul ⟵⟶ Sapanca & Maşukiye (One-Way or Full Day Tour)",
+        "tr": "İstanbul ⟵⟶ Sapanca & Maşukiye Turu"
+      },
+      "distanceKm": 140,
+      "durationMin": 110,
+      "category": "daytrip",
+      "prices": {
+        "vito": 95,
+        "sprinter": 149,
+        "maybach": 219
+      }
+    },
+    {
+      "id": "ist-bursa",
+      "from": "IST",
+      "to": "bursa",
+      "name": {
+        "ar": "إسطنبول ⟵⟶ رحلة بورصة وجبل أولوداغ (شامل العبارة أو الجسر)",
+        "en": "Istanbul ⟵⟶ Bursa & Mount Uludağ (Ferry or Osmangazi Bridge)",
+        "tr": "İstanbul ⟵⟶ Bursa & Uludağ Turu"
+      },
+      "distanceKm": 160,
+      "durationMin": 130,
+      "category": "daytrip",
+      "prices": {
+        "vito": 119,
+        "sprinter": 179,
+        "maybach": 249
+      }
+    },
+    {
+      "id": "ist-citytour",
+      "from": "IST",
+      "to": "citytour",
+      "name": {
+        "ar": "جولة إسطنبول VIP كامل اليوم (8 ساعات بسائق خاص)",
+        "en": "Full Day Istanbul VIP City Tour (8 Hours Private Chauffeur)",
+        "tr": "Tam Gün İstanbul VIP Şehir Turu (8 Saat Şoförlü)"
+      },
+      "distanceKm": 80,
+      "durationMin": 480,
+      "category": "daytrip",
+      "prices": {
+        "vito": 89,
+        "sprinter": 129,
+        "maybach": 189
+      }
+    }
+  ]
+}

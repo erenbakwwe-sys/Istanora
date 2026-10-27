@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="800" height="480">
+  <defs>
+    <linearGradient id="bgSprinter" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#061220" />
+      <stop offset="100%" stop-color="#0D203D" />
+    </linearGradient>
+    <linearGradient id="goldS" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D4AF37" />
+      <stop offset="50%" stop-color="#FFF" />
+      <stop offset="100%" stop-color="#D4AF37" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="480" rx="16" fill="url(#bgSprinter)" />
+  <circle cx="400" cy="240" r="260" fill="none" stroke="#D4AF37" stroke-width="1" opacity="0.12" />
+  <!-- Sprinter High Roof Body -->
+  <g transform="translate(80, 90)">
+    <ellipse cx="320" cy="290" rx="310" ry="25" fill="#000000" opacity="0.75" />
+    <!-- High Roof Van -->
+    <path d="M30 230 L50 120 L120 70 L520 65 L600 110 L620 200 L610 260 L40 260 Z" fill="#0B132B" stroke="#334155" stroke-width="2" />
+    <!-- Panoramic Side Windows -->
+    <path d="M130 85 L240 85 L240 170 L110 170 Z" fill="#070D1E" stroke="url(#goldS)" stroke-width="1.5" />
+    <path d="M250 85 L360 85 L360 170 L250 170 Z" fill="#070D1E" stroke="url(#goldS)" stroke-width="1.5" />
+    <path d="M370 85 L480 85 L480 170 L370 170 Z" fill="#070D1E" stroke="url(#goldS)" stroke-width="1.5" />
+    <path d="M490 85 L565 110 L555 170 L490 170 Z" fill="#070D1E" stroke="url(#goldS)" stroke-width="1.5" />
+    <!-- Gold VIP Stripe -->
+    <line x1="30" y1="215" x2="615" y2="215" stroke="url(#goldS)" stroke-width="3" />
+    <!-- Wheels -->
+    <g transform="translate(140, 260)">
+      <circle cx="0" cy="0" r="48" fill="#0F172A" stroke="#475569" stroke-width="4" />
+      <circle cx="0" cy="0" r="32" fill="#1E293B" stroke="url(#goldS)" stroke-width="2" />
+      <circle cx="0" cy="0" r="10" fill="url(#goldS)" />
+    </g>
+    <g transform="translate(510, 260)">
+      <circle cx="0" cy="0" r="48" fill="#0F172A" stroke="#475569" stroke-width="4" />
+      <circle cx="0" cy="0" r="32" fill="#1E293B" stroke="url(#goldS)" stroke-width="2" />
+      <circle cx="0" cy="0" r="10" fill="url(#goldS)" />
+    </g>
+  </g>
+  <g transform="translate(40, 40)">
+    <rect width="230" height="38" rx="19" fill="#0A1A33" stroke="#D4AF37" stroke-width="1.5" />
+    <text x="115" y="24" font-family="'Inter', sans-serif" font-size="14" font-weight="700" fill="#D4AF37" text-anchor="middle">
+      MERCEDES SPRINTER VIP
+    </text>
+  </g>
+  <text x="760" y="65" font-family="'Inter', sans-serif" font-size="14" font-weight="600" fill="#94A3B8" text-anchor="end">
+    8 - 14 PAX • 15 LUGGAGE • HIGH ROOF EXECUTIVE
+  </text>
+</svg>

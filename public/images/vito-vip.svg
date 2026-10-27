@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="800" height="480">
+  <defs>
+    <linearGradient id="bgVito" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#071324" />
+      <stop offset="60%" stop-color="#0F2447" />
+      <stop offset="100%" stop-color="#0A1A33" />
+    </linearGradient>
+    <linearGradient id="goldCar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D4AF37" />
+      <stop offset="50%" stop-color="#FFF3B0" />
+      <stop offset="100%" stop-color="#D4AF37" />
+    </linearGradient>
+    <linearGradient id="bodyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="50%" stop-color="#0B132B" />
+      <stop offset="100%" stop-color="#000000" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="480" rx="16" fill="url(#bgVito)" />
+  <!-- VIP Grid & Ambient lines -->
+  <circle cx="400" cy="240" r="280" fill="none" stroke="#D4AF37" stroke-width="1" opacity="0.1" />
+  <circle cx="400" cy="240" r="200" fill="none" stroke="#D4AF37" stroke-width="1" opacity="0.15" />
+  
+  <!-- Car Silhouette / Mercedes Vito VIP Representation -->
+  <g transform="translate(100, 110)">
+    <!-- Shadow -->
+    <ellipse cx="300" cy="270" rx="280" ry="25" fill="#000000" opacity="0.7" />
+    <!-- Van Body -->
+    <path d="M50 210 L80 140 L160 100 L440 95 L520 120 L550 180 L560 220 L540 240 L60 240 Z" fill="url(#bodyGrad)" stroke="#334155" stroke-width="2" />
+    <!-- Windows VIP Tinted -->
+    <path d="M165 108 L280 108 L280 160 L130 160 Z" fill="#0F172A" stroke="url(#goldCar)" stroke-width="1.5" opacity="0.9" />
+    <path d="M290 108 L410 108 L410 160 L290 160 Z" fill="#0F172A" stroke="url(#goldCar)" stroke-width="1.5" opacity="0.9" />
+    <path d="M420 108 L495 125 L485 160 L420 160 Z" fill="#0F172A" stroke="url(#goldCar)" stroke-width="1.5" opacity="0.9" />
+    
+    <!-- Gold VIP Trim Strip -->
+    <path d="M55 205 L555 205" stroke="url(#goldCar)" stroke-width="3" />
+    
+    <!-- Headlights & Taillights -->
+    <polygon points="535,175 560,185 550,205 530,195" fill="#E2E8F0" opacity="0.9" filter="drop-shadow(0px 0px 8px #60A5FA)" />
+    <rect x="52" y="180" width="10" height="25" rx="3" fill="#EF4444" />
+    
+    <!-- Wheels -->
+    <g transform="translate(150, 240)">
+      <circle cx="0" cy="0" r="45" fill="#0F172A" stroke="#475569" stroke-width="4" />
+      <circle cx="0" cy="0" r="30" fill="#1E293B" stroke="url(#goldCar)" stroke-width="2" />
+      <circle cx="0" cy="0" r="10" fill="url(#goldCar)" />
+    </g>
+    <g transform="translate(460, 240)">
+      <circle cx="0" cy="0" r="45" fill="#0F172A" stroke="#475569" stroke-width="4" />
+      <circle cx="0" cy="0" r="30" fill="#1E293B" stroke="url(#goldCar)" stroke-width="2" />
+      <circle cx="0" cy="0" r="10" fill="url(#goldCar)" />
+    </g>
+    <!-- Mercedes Benz Emblem on Grille -->
+    <circle cx="550" cy="205" r="10" fill="#000000" stroke="url(#goldCar)" stroke-width="1.5" />
+    <line x1="550" y1="195" x2="550" y2="205" stroke="url(#goldCar)" stroke-width="1.5" />
+    <line x1="550" y1="205" x2="542" y2="212" stroke="url(#goldCar)" stroke-width="1.5" />
+    <line x1="550" y1="205" x2="558" y2="212" stroke="url(#goldCar)" stroke-width="1.5" />
+  </g>
+  
+  <!-- Badge -->
+  <g transform="translate(40, 40)">
+    <rect width="210" height="38" rx="19" fill="#0A1A33" stroke="#D4AF37" stroke-width="1.5" />
+    <text x="105" y="24" font-family="'Inter', sans-serif" font-size="14" font-weight="700" fill="#D4AF37" text-anchor="middle">
+      MERCEDES VITO VIP
+    </text>
+  </g>
+  <text x="760" y="65" font-family="'Inter', sans-serif" font-size="14" font-weight="600" fill="#94A3B8" text-anchor="end">
+    1 - 6 PAX • 6 LUGGAGE • LUXURY INTERIOR
+  </text>
+</svg>

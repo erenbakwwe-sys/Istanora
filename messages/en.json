@@ -1,0 +1,263 @@
+{
+  "common": {
+    "brandName": "Istanora VIP Transfer",
+    "tagline": "Your journey starts with us",
+    "bookNow": "Book Now",
+    "requestCallback": "Request Callback",
+    "sendEmailRequest": "Send Request",
+    "callUs": "Call Us",
+    "vipConcierge": "24/7 VIP Concierge",
+    "telegramSupport": "Telegram Live Support",
+    "startingFrom": "Starting from",
+    "perTrip": "per vehicle / one-way",
+    "viewAll": "View All",
+    "currency": "Currency",
+    "passenger": "passenger",
+    "passengers": "passengers",
+    "luggage": "luggage",
+    "luggages": "luggage pieces",
+    "fixedPrice": "Guaranteed Fixed Price",
+    "noHiddenFees": "No Hidden Fees",
+    "freeCancellation": "Free Cancellation up to 24h",
+    "licensedInsured": "Fully Licensed & Insured (TÜRSAB)",
+    "supportArabic": "24/7 Dedicated Concierge Support"
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "fleet": "Fleet",
+    "destinations": "Destinations & Rates",
+    "howItWorks": "How It Works",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "VIP Istanbul Airport Transfer • From $29",
+    "title": "Land in Istanbul. We'll take care of the rest.",
+    "subtitle": "Premium private chauffeur transfers from Istanbul New Airport (IST) and Sabiha Gökçen (SAW) in luxury Mercedes Vito VIP vans. Punctual, safe, and transparent pricing.",
+    "trust1": "Fixed Price Guarantee",
+    "trust2": "Meet & Greet with Name Sign",
+    "trust3": "Free Flight Tracking",
+    "trust4": "24/7 Dedicated Support"
+  },
+  "bookingWidget": {
+    "title": "Instant Fare Estimate & Booking",
+    "subtitle": "Calculate fixed fare and complete your reservation securely online",
+    "pickup": "Pickup Location (From)",
+    "dropoff": "Dropoff Destination (To)",
+    "selectPickup": "Select pickup point...",
+    "selectDropoff": "Select destination...",
+    "date": "Date",
+    "time": "Time",
+    "vehicle": "Vehicle Class",
+    "passengersCount": "Passengers",
+    "luggageCount": "Luggage",
+    "flightNumber": "Flight No (Optional)",
+    "flightPlaceholder": "e.g. SV260 / EK121 / TK801 / BA676",
+    "notes": "Special Requests (Child seat, extra stops...)",
+    "childSeat": "Child Booster / Baby Seat (Free upon request)",
+    "estimatedPrice": "Estimated Net Fare",
+    "allInclusive": "Includes highway tolls, bridges, fuel & taxes",
+    "btnProceed": "Proceed to Booking & Payment",
+    "btnCallback": "Request Callback",
+    "priceNote": "* Guaranteed final price. No unexpected surge or waiting charges."
+  },
+  "whyUs": {
+    "badge": "Why Istanora VIP?",
+    "title": "The Preferred VIP Choice for Discerning International Travelers",
+    "subtitle": "We blend luxury, absolute punctuality, and Arabic & English hospitality to make your arrival stress-free.",
+    "items": [
+      {
+        "title": "Luxury Mercedes VIP Fleet",
+        "desc": "Modern Mercedes-Benz Vito and Sprinter VIP vans with premium leather captain chairs, ambient lighting, TV and high-speed Wi-Fi."
+      },
+      {
+        "title": "Abundant Luggage Capacity",
+        "desc": "Spacious luggage trunks designed specifically for large family suitcases, strollers, and shopping bags without compromise."
+      },
+      {
+        "title": "Personal Meet & Greet",
+        "desc": "Your private chauffeur waits inside the arrival terminal holding a personalized greeting sign, ready to assist with all your luggage."
+      },
+      {
+        "title": "Flight Monitoring & 60 Min Free Wait",
+        "desc": "We track your flight in real-time. If your plane is delayed, your pickup time adjusts automatically with 60 minutes free wait time."
+      },
+      {
+        "title": "Guaranteed Fixed Pricing",
+        "desc": "What you see is exactly what you pay. All road tolls, tunnel fees, Bosphorus bridge crossings and taxes are included."
+      },
+      {
+        "title": "Multilingual 24/7 Assistance",
+        "desc": "Fluent Arabic and English coordinators available round the clock via VIP hotline and live support to assist your journey anytime."
+      }
+    ]
+  },
+  "fleet": {
+    "badge": "Our Premium Fleet",
+    "title": "Designed for Supreme Comfort, Privacy & Elegance",
+    "subtitle": "Impeccably sanitized, air-conditioned VIP vehicles tailored for solo travelers, families, and executive groups.",
+    "vito": {
+      "name": "Mercedes-Benz Vito VIP",
+      "badge": "Most Popular for Families",
+      "pax": "1 - 6 Passengers",
+      "luggage": "6 Large Suitcases",
+      "desc": "First-class luxury partition, plush face-to-face leather seating, Smart TV entertainment, ambient starlight ceiling, and USB ports.",
+      "features": ["Smart TV & USB Charging", "Unlimited Free Wi-Fi", "Complimentary Cold Bottled Water", "Independent Rear Climate Control", "Ultra-Comfort Leather Seats"]
+    },
+    "sprinter": {
+      "name": "Mercedes-Benz Sprinter VIP",
+      "badge": "Ideal for Large Families & Groups",
+      "pax": "8 - 14 Passengers",
+      "luggage": "12 - 15 Large Suitcases",
+      "desc": "Expansive cabin with high ceiling, individual executive seats, cinema screen, and unmatched space for day tours and luggage.",
+      "features": ["Massive Trunk Capacity", "Cinema Screen & Audio System", "On-board Refrigerator & Water", "Ultra Fast 5G Wi-Fi", "Gentle Ambient Starlight Lighting"]
+    },
+    "maybach": {
+      "name": "Mercedes S-Class / Maybach VIP",
+      "badge": "Ultimate Prestige & Executive",
+      "pax": "1 - 3 Passengers",
+      "luggage": "3 Large Suitcases",
+      "desc": "The highest standard of prestige and discreet luxury for business leaders, VIP delegations, and couples in Istanbul.",
+      "features": ["Heated & Massaging Seats", "Acoustic Glass Isolation", "Uniformed Professional Chauffeur", "VIP Diplomatic Standard", "Maximum Privacy & Comfort"]
+    }
+  },
+  "destinations": {
+    "badge": "Destinations & Rates",
+    "title": "Clear & Transparent Pricing Across Istanbul & Beyond",
+    "subtitle": "Fixed rate per vehicle including all tolls, fuel, and taxes.",
+    "tableTitle": "Price Matrix by Area & Vehicle Class",
+    "filterAll": "All Destinations",
+    "filterIstanbul": "Istanbul City Center",
+    "filterDayTrips": "Scenic Day Tours",
+    "route": "Route / Destination",
+    "duration": "Est. Duration",
+    "vitoPrice": "Mercedes Vito VIP",
+    "sprinterPrice": "Mercedes Sprinter VIP",
+    "action": "Book"
+  },
+  "services": {
+    "badge": "Exclusive Services",
+    "title": "Comprehensive Luxury Transport Solutions in Turkey",
+    "subtitle": "From airport transfers to all-day private city and nature excursions.",
+    "items": [
+      {
+        "title": "Istanbul New Airport (IST) Transfer",
+        "desc": "Punctual 24/7 transfers to and from Europe's largest hub with meet & greet at the exit gate."
+      },
+      {
+        "title": "Sabiha Gökçen Airport (SAW) Transfer",
+        "desc": "Seamless transit between the Asian side and all Istanbul European hotels via Eurasia Tunnel."
+      },
+      {
+        "title": "Full-Day VIP Istanbul City Tours",
+        "desc": "Customized private tours covering Sultanahmet, Galata, Bosphorus shores, and luxury shopping malls."
+      },
+      {
+        "title": "Sapanca, Maşukiye & Bursa Day Trips",
+        "desc": "Relaxing private escapes to tranquil lakes, waterfalls, Uludağ cable car, and lush green mountains."
+      },
+      {
+        "title": "Hourly & Daily Chauffeur Hire",
+        "desc": "Your own private VIP vehicle and driver on standby for flexible shopping, meetings, and dinners."
+      },
+      {
+        "title": "Intercity VIP Transfers",
+        "desc": "Direct door-to-door luxury journeys to Yalova, Bursa, Bolu, and Ankara without airport hassle."
+      }
+    ]
+  },
+  "howItWorks": {
+    "badge": "Seamless Process",
+    "title": "3 Easy Steps to Your VIP Transfer",
+    "subtitle": "Secure online booking and card checkout. Instant confirmation.",
+    "step1Title": "1. Select Route & Vehicle",
+    "step1Desc": "Specify your airport, destination, date, flight number and passenger count.",
+    "step2Title": "2. Confirm Fixed Price & Pay",
+    "step2Desc": "Receive guaranteed fixed pricing and chauffeur details with zero hidden charges.",
+    "step3Title": "3. Meet Your Driver in Terminal",
+    "step3Desc": "Upon landing, find your chauffeur holding a personalized sign at the arrival gate ready to escort you to your vehicle."
+  },
+  "testimonials": {
+    "badge": "Guest Reviews",
+    "title": "Trusted by Thousands of Travelers from the Gulf & Worldwide",
+    "subtitle": "Proudly rated 4.9/5 stars for outstanding reliability, clean cars, and friendly service."
+  },
+  "faq": {
+    "badge": "Frequently Asked Questions",
+    "title": "Everything You Need to Know Before Booking",
+    "subtitle": "Honest answers to the most common transfer questions."
+  },
+  "ctaBanner": {
+    "title": "Ready for a Stress-Free Arrival in Istanbul?",
+    "subtitle": "Book your VIP chauffeur transfer online at guaranteed fixed rates or call our 24/7 concierge.",
+    "btn": "Book Online Now",
+    "orCall": "Or call our 24/7 hotline:"
+  },
+  "footer": {
+    "about": "Istanora VIP Transfer is your premier licensed VIP airport transfer and private tour provider in Istanbul, Turkey.",
+    "quickLinks": "Quick Links",
+    "popularDestinations": "Top Destinations",
+    "contactInfo": "Contact Details",
+    "rights": "All rights reserved © Istanora VIP Transfer.",
+    "paymentMethods": "Online payment via Credit Cards (Visa, Mastercard) & PayPal coming soon."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Our 24/7 customer concierge is ready to assist with any questions or bookings",
+    "name": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "message": "Message or Trip Details",
+    "submit": "Send Message",
+    "success": "Your message has been sent successfully! We will get in touch promptly."
+  },
+  "thankYou": {
+    "title": "Thank You for Choosing Istanora VIP Transfer!",
+    "subtitle": "We have received your booking and payment. Your chauffeur details have been confirmed.",
+    "btnHome": "Return to Homepage",
+    "btnChat": "Call VIP Concierge 24/7"
+  },
+  "checkout": {
+    "title": "Secure Booking & Payment",
+    "subtitle": "Review your VIP journey details and choose your preferred payment method",
+    "tripSummary": "Trip Summary",
+    "pickup": "Pickup Location",
+    "dropoff": "Destination",
+    "dateTime": "Date & Time",
+    "vehicle": "Selected Vehicle",
+    "passengers": "Passengers & Luggage",
+    "totalPrice": "Total Fixed Fare",
+    "allInclusive": "All highway tolls, bridges, tunnels, fuel and taxes included",
+    "passengerInfo": "Passenger & Contact Details",
+    "fullName": "Full Name",
+    "phone": "Phone Number",
+    "email": "Email Address",
+    "flightNo": "Flight Number (Optional)",
+    "flightNoHelp": "e.g. SV260, TK1821 (We track your flight live on radar)",
+    "greetingSign": "Greeting Name on Signboard",
+    "greetingSignHelp": "The name your chauffeur will hold at the exit gate",
+    "notes": "Special Requests",
+    "notesPlaceholder": "Child car seat, extra stop, or special requests...",
+    "paymentMethod": "Payment Method",
+    "payOnlineCard": "Pay with Credit / Debit Card",
+    "payOnlineCardDesc": "Instant 256-bit SSL encrypted card checkout (Visa, Mastercard, Amex)",
+    "payPaypal": "Pay with PayPal",
+    "payPaypalDesc": "Fast and secure checkout with your international PayPal account",
+    "cardHolder": "Cardholder Name",
+    "cardNumber": "Card Number",
+    "cardExpiry": "Expiry (MM/YY)",
+    "cardCvv": "CVV Code",
+    "btnComplete": "Confirm Booking & Payment",
+    "processing": "Processing your VIP reservation...",
+    "secureGuarantee": "Protected by 256-bit SSL & TÜRSAB Official License"
+  },
+  "paypalNotice": {
+    "badge": "Payment Notice",
+    "title": "This Feature Is Coming Soon",
+    "subtitle": "PayPal gateway integration is currently undergoing maintenance and will be active shortly.",
+    "advice": "Please complete your reservation using the Credit Card option or call our 24/7 concierge support.",
+    "btnBack": "Return to Credit Card Payment",
+    "btnCall": "Call VIP Concierge"
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "common": {
+    "brandName": "Istanora VIP Transfer",
+    "tagline": "Yolculuğunuz bizimle başlar",
+    "bookNow": "Rezervasyon Yap",
+    "requestCallback": "Sizi Arayalım",
+    "sendEmailRequest": "Talep Gönder",
+    "callUs": "Bizi Arayın",
+    "vipConcierge": "7/24 VIP Concierge",
+    "telegramSupport": "Telegram Canlı Destek",
+    "startingFrom": "Başlangıç fiyatı",
+    "perTrip": "araç başı / tek yön",
+    "viewAll": "Tümünü Gör",
+    "currency": "Para Birimi",
+    "passenger": "yolcu",
+    "passengers": "yolcu",
+    "luggage": "valiz",
+    "luggages": "valiz",
+    "fixedPrice": "Garantili Sabit Fiyat",
+    "noHiddenFees": "Gizli Ücret Yok",
+    "freeCancellation": "24 Saate Kadar Ücretsiz İptal",
+    "licensedInsured": "TÜRSAB Lisanslı ve Sigortalı",
+    "supportArabic": "7/24 VIP Müşteri Desteği (Arapça & İngilizce)"
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "services": "Hizmetlerimiz",
+    "fleet": "Araç Filosu",
+    "destinations": "Destinasyonlar & Fiyatlar",
+    "howItWorks": "Nasıl Çalışır",
+    "faq": "SSS",
+    "contact": "İletişim"
+  },
+  "hero": {
+    "badge": "İstanbul VIP Havalimanı Transferi • 29$'dan Başlayan Fiyatlarla",
+    "title": "İstanbul'a İnin. Gerisini Bize Bırakın.",
+    "subtitle": "İstanbul Havalimanı (IST) ve Sabiha Gökçen'den (SAW) lüks Mercedes Vito VIP araçlarla konforlu, güvenli ve sabit fiyatlı özel şoförlü transfer hizmeti.",
+    "trust1": "Sabit Fiyat Garantisi",
+    "trust2": "İsimli Karşılama (Meet & Greet)",
+    "trust3": "Ücretsiz Uçuş Takibi",
+    "trust4": "7/24 Kesintisiz Destek"
+  },
+  "bookingWidget": {
+    "title": "Anında Fiyat Hesapla & Rezervasyon Yap",
+    "subtitle": "Anında sabit fiyat hesaplayın ve rezervasyonunuzu güvenle tamamlayın",
+    "pickup": "Alış Noktası (Nereden)",
+    "dropoff": "Bırakış Noktası (Nereye)",
+    "selectPickup": "Alış noktasını seçin...",
+    "selectDropoff": "Bırakış noktasını seçin...",
+    "date": "Tarih",
+    "time": "Saat",
+    "vehicle": "Araç Tipi",
+    "passengersCount": "Yolcu Sayısı",
+    "luggageCount": "Bagaj Sayısı",
+    "flightNumber": "Uçuş Kodu (Opsiyonel)",
+    "flightPlaceholder": "Örn: TK1821 / SV260 / PC202",
+    "notes": "Özel İstekler (Bebek koltuğu, ek durak...)",
+    "childSeat": "Bebek / Çocuk Koltuğu (Talep halinde ücretsiz)",
+    "estimatedPrice": "Net Sabit Ücret",
+    "allInclusive": "Otoyol, köprü, tünel, yakıt ve KDV dahildir",
+    "btnProceed": "Ödeme Sayfasına Geç & Rezervasyon Yap",
+    "btnCallback": "Sizi Hemen Arayalım",
+    "priceNote": "* Sabit fiyattır. Karşılamada veya varışta ekstra ücret talep edilmez."
+  },
+  "whyUs": {
+    "badge": "Neden Istanora VIP?",
+    "title": "Körfez ve Uluslararası Misafirlerimizin İlk Tercihi",
+    "subtitle": "Konfor, dakiklik ve üst düzey misafirperverlikle İstanbul seyahatinizi kusursuz başlatıyoruz.",
+    "items": [
+      {
+        "title": "Lüks Mercedes VIP Filo",
+        "desc": "Deri kaptan koltukları, ortam aydınlatması, Smart TV ve ücretsiz Wi-Fi ile donatılmış yeni model Mercedes Vito ve Sprinter."
+      },
+      {
+        "title": "Geniş Bagaj Kapasitesi",
+        "desc": "Geniş aile bavulları, bebek arabaları ve alışveriş paketleri için özel geniş bagaj hacmi."
+      },
+      {
+        "title": "İsimli Özel Karşılama",
+        "desc": "Özel şoförünüz sizi havalimanı çıkış kapısında isminizin yazılı olduğu tabela ile karşılar, valizlerinize yardımcı olur."
+      },
+      {
+        "title": "Uçuş Takibi & 60 Dk Ücretsiz Bekleme",
+        "desc": "Uçağınız rötar yapsa bile iniş anınız otomatik takip edilir, 60 dakikaya kadar ücretsiz bekleme sunulur."
+      },
+      {
+        "title": "Garantili Sabit Fiyat",
+        "desc": "Köprü, tünel geçişleri ve otoyol ücretleri fiyata dahildir. Sürpriz ek maliyet çıkarılmaz."
+      },
+      {
+        "title": "Çok Dilli 7/24 Destek",
+        "desc": "Arapça, İngilizce ve Türkçe konuşan VIP operasyon ekibimiz seyahatinizin her anında 7/24 yanınızda."
+      }
+    ]
+  },
+  "fleet": {
+    "badge": "Lüks Araç Filomuz",
+    "title": "Maksimum Konfor ve Mahremiyet İçin Tasarlandı",
+    "subtitle": "Her transfer öncesi titizlikle dezenfekte edilen, iklimlendirmeli ve geniş donanımlı araçlar.",
+    "vito": {
+      "name": "Mercedes-Benz Vito VIP",
+      "badge": "Aileler İçin En Çok Tercih Edilen",
+      "pax": "1 - 6 Yolcu",
+      "luggage": "6 Büyük Valiz",
+      "desc": "Karşılıklı lüks deri koltuklar, açılır masalar, Smart TV, yıldız tavan aydınlatması ve USB şarj girişleri.",
+      "features": ["Smart TV ve USB Şarj", "Sınırsız Hızlı Wi-Fi", "Ücretsiz Soğuk İçecek İkramı", "Bağımsız Arka Klima", "Ultra Rahat Deri Koltuklar"]
+    },
+    "sprinter": {
+      "name": "Mercedes-Benz Sprinter VIP",
+      "badge": "Geniş Aile ve Gruplar İçin İdeal",
+      "pax": "8 - 14 Yolcu",
+      "luggage": "12 - 15 Büyük Valiz",
+      "desc": "Geniş koridor, yüksek tavan, tekli VIP koltuklar ve devasa bagaj hacmi ile Sapanca, Bursa ve grup turları için ideal.",
+      "features": ["Geniş Bagaj Alanı", "Büyük Ekran TV ve Ses Sistemi", "Araç İçi Buzdolabı", "5G Hızlı Wi-Fi", "Özel Gece Ambiyans Aydınlatması"]
+    },
+    "maybach": {
+      "name": "Mercedes S-Class / Maybach VIP",
+      "badge": "Üst Düzey Prestij ve Protokol",
+      "pax": "1 - 3 Yolcu",
+      "luggage": "3 Büyük Valiz",
+      "desc": "İş insanları, diplomatik heyetler ve özel davetler için İstanbul'un en prestijli şoförlü lüks otomobil deneyimi.",
+      "features": ["Masajlı ve Isıtmalı Koltuklar", "Üstün Akustik Ses İzolasyonu", "Takım Elbiseli Özel Şoför", "VIP Protokol Hizmeti", "Maksimum Gizlilik ve Güvenlik"]
+    }
+  },
+  "destinations": {
+    "badge": "Destinasyonlar & Fiyatlar",
+    "title": "İstanbul İçi ve Dışı Şeffaf Sabit Fiyatlar",
+    "subtitle": "Köprüler, tüneller, otoyollar ve yakıt dahil araç başı net fiyatlar.",
+    "tableTitle": "Bölge ve Araç Tipine Göre Fiyat Tablosu",
+    "filterAll": "Tüm Destinasyonlar",
+    "filterIstanbul": "İstanbul Şehir İçi",
+    "filterDayTrips": "Günübirlik Geziler",
+    "route": "Güzergah / Bölge",
+    "duration": "Tahmini Süre",
+    "vitoPrice": "Mercedes Vito VIP",
+    "sprinterPrice": "Mercedes Sprinter VIP",
+    "action": "Rezervasyon"
+  },
+  "services": {
+    "badge": "Ayrıcalıklı Hizmetlerimiz",
+    "title": "Türkiye Seyahatiniz İçin Eksiksiz VIP Ulaşım",
+    "subtitle": "Sadece havalimanı transferi değil, tüm seyahatinizde konforlu yol arkadaşınız.",
+    "items": [
+      {
+        "title": "İstanbul Havalimanı (IST) Transferi",
+        "desc": "Avrupa yakasındaki yeni havalimanından otelinize veya evinize 7/24 dakik ve konforlu ulaşım."
+      },
+      {
+        "title": "Sabiha Gökçen (SAW) Transferi",
+        "desc": "Anadolu yakasından Avrasya Tüneli veya Boğaz köprüleri üzerinden tüm otellere hızlı geçiş."
+      },
+      {
+        "title": "Tam Gün Özel İstanbul Şehir Turu",
+        "desc": "Sultanahmet, Galata, Boğaz hattı ve lüks AVM'leri kapsayan şoförlü tam gün özel tur."
+      },
+      {
+        "title": "Sapanca, Maşukiye & Bursa Turları",
+        "desc": "Göl kıyısı, şelaleler ve Uludağ teleferik turu için ailenize özel konforlu günübirlik geziler."
+      },
+      {
+        "title": "Saatlik & Günlük Şoförlü Araç Tahsisi",
+        "desc": "Toplantılar, alışveriş veya özel davetler için aracın tamamen emrinizde olduğu esnek hizmet."
+      },
+      {
+        "title": "Şehirler Arası VIP Transfer",
+        "desc": "Yalova, Bursa, Bolu ve Ankara'ya uçak aktarması olmadan kapıdan kapıya doğrudan lüks seyahat."
+      }
+    ]
+  },
+  "howItWorks": {
+    "badge": "Kolay Süreç",
+    "title": "3 Adımda VIP Transferiniz Hazır",
+    "subtitle": "Kredi kartı ile güvenli rezervasyon. 1 dakikada anında onay.",
+    "step1Title": "1. Rotanızı Seçin ve Bilgilerinizi Girin",
+    "step1Desc": "Havalimanı, otel/adres, tarih ve kişi sayısını belirleyin, rezervasyonunuzu anında oluşturun.",
+    "step2Title": "2. Sabit Fiyatınızı İnceleyip Onaylayın",
+    "step2Desc": "Sürpriz maliyetler olmadan sabit fiyatınızı güvenle ödeyin ve şoför detaylarınızı alın.",
+    "step3Title": "3. Havalimanında Şoförünüzle Buluşun",
+    "step3Desc": "İnişte şoförünüz sizi isminizin yazılı olduğu karşılama panosuyla karşılar ve aracınıza eşlik eder."
+  },
+  "testimonials": {
+    "badge": "Misafir Yorumları",
+    "title": "Körfez ve Dünyanın Dört Bir Yanından Gelen Konuklarımızın Yorumları",
+    "subtitle": "Yüksek müşteri memnuniyeti ve 4.9/5 puan ortalamasıyla gurur duyuyoruz."
+  },
+  "faq": {
+    "badge": "Sıkça Sorulan Sorular",
+    "title": "Rezervasyon Öncesi Aklınıza Takılan Her Şey",
+    "subtitle": "Transfer hizmetimiz hakkında en çok sorulan sorular ve şeffaf yanıtları."
+  },
+  "ctaBanner": {
+    "title": "İstanbul Seyahatinizi Stressiz Başlatmaya Hazır Mısınız?",
+    "subtitle": "En iyi sabit fiyatla VIP transferinizi online rezerve edin veya 7/24 VIP çağrı merkezimizi arayın.",
+    "btn": "Online Rezervasyon Yap",
+    "orCall": "Veya 7/24 VIP Hattımızı Arayın:"
+  },
+  "footer": {
+    "about": "Istanora VIP Transfer, İstanbul ve Türkiye genelinde lisanslı VIP havalimanı transferi ve özel şoförlü tur hizmeti sunmaktadır.",
+    "quickLinks": "Hızlı Bağlantılar",
+    "popularDestinations": "Popüler Bölgeler",
+    "contactInfo": "İletişim Bilgileri",
+    "rights": "Tüm hakları saklıdır © Istanora VIP Transfer.",
+    "paymentMethods": "Ödemeyi nakit (Dolar, Euro, TL, SAR) veya araçta şoföre kredi kartı ile yapabilirsiniz."
+  },
+  "contact": {
+    "title": "İletişim",
+    "subtitle": "7/24 destek ekibimiz tüm sorularınız ve rezervasyonlarınız için hazır",
+    "name": "Ad Soyad",
+    "email": "E-posta Adresi",
+    "phone": "Telefon Numarası",
+    "message": "Mesajınız veya Detaylar",
+    "submit": "Mesajı Gönder",
+    "success": "Mesajınız başarıyla iletildi! En kısa sürede sizinle iletişime geçeceğiz."
+  },
+  "thankYou": {
+    "title": "Istanora VIP Transfer'i Tercih Ettiğiniz İçin Teşekkür Ederiz!",
+    "subtitle": "Rezervasyonunuz başarıyla oluşturuldu ve ödemeniz işleme alındı. Şoför detaylarınız SMS ve e-posta ile iletilecektir.",
+    "btnHome": "Ana Sayfaya Dön",
+    "btnChat": "VIP Çağrı Merkezimizi Arayın"
+  },
+  "checkout": {
+    "title": "Güvenli Rezervasyon & Ödeme",
+    "subtitle": "VIP transfer detaylarınızı onaylayın ve güvenle ödeme tercihinizi belirleyin",
+    "tripSummary": "Yolculuk Özeti",
+    "pickup": "Alış Noktası",
+    "dropoff": "Bırakış Noktası",
+    "dateTime": "Tarih & Saat",
+    "vehicle": "Seçilen Araç",
+    "passengers": "Yolcu & Bagaj",
+    "totalPrice": "Toplam Net Fiyat",
+    "allInclusive": "Köprüler, otoyollar, tünel, yakıt ve vergiler dahildir",
+    "passengerInfo": "Yolcu ve İletişim Bilgileri",
+    "fullName": "Ad Soyad",
+    "phone": "Telefon Numarası",
+    "email": "E-posta Adresi",
+    "flightNo": "Uçuş Kodu (Varsa)",
+    "flightNoHelp": "Örn: SV260, TK1821 (Uçuşunuz canlı radardan takip edilir)",
+    "greetingSign": "Karşılama Tabelasında Yazacak İsim",
+    "greetingSignHelp": "Şoförümüz terminal kapısında bu ismi taşıyan panoyla karşılayacaktır",
+    "notes": "Özel İstekler / Notlar",
+    "notesPlaceholder": "Bebek koltuğu, ekstra durak veya özel talepleriniz...",
+    "paymentMethod": "Ödeme Yöntemi Tercihi",
+    "payOnlineCard": "Güvenli Kredi / Banka Kartı ile Öde",
+    "payOnlineCardDesc": "256-bit SSL şifreleme ile Visa, Mastercard ve Troy korumalı anında güvenli ödeme",
+    "payPaypal": "PayPal ile Öde",
+    "payPaypalDesc": "Uluslararası PayPal hesabı veya PayPal bakiyesi ile ödeme",
+    "cardHolder": "Kart Üzerindeki İsim",
+    "cardNumber": "Kart Numarası",
+    "cardExpiry": "Son Kullanma (AA/YY)",
+    "cardCvv": "CVV Kodu",
+    "btnComplete": "Rezervasyonu ve Ödemeyi Tamamla",
+    "processing": "Rezervasyonunuz İşleniyor...",
+    "secureGuarantee": "256-bit SSL Şifreleme & TÜRSAB Lisanslı Transfer Güvencesi"
+  },
+  "paypalNotice": {
+    "badge": "Ödeme Bildirimi",
+    "title": "Bu Özellik Henüz Aktif Değildir",
+    "subtitle": "PayPal ile ödeme altyapımız şu anda güncelleme aşamasındadır ve çok yakında hizmetinize sunulacaktır.",
+    "advice": "Rezervasyonunuzu güvence altına almak için lütfen Kredi Kartı seçeneği ile devam ediniz veya 7/24 VIP çağrı merkezimizle iletişime geçiniz.",
+    "btnBack": "Kredi Kartı ile Ödemeye Geri Dön",
+    "btnCall": "Çağrı Merkezimizi Arayın"
+  }
+}
