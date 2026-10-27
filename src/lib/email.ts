@@ -444,9 +444,19 @@ export async function sendBookingConfirmationEmail(data: BookingEmailData): Prom
         };
       } else {
         console.warn('[EMAIL] Resend API error response:', resJson);
+        return {
+          success: false,
+          provider: 'resend',
+          error: resJson.message || resJson.error || JSON.stringify(resJson),
+        };
       }
     } catch (resendErr: any) {
       console.error('[EMAIL] Failed sending via Resend API:', resendErr?.message || resendErr);
+      return {
+        success: false,
+        provider: 'resend',
+        error: resendErr?.message || 'Network error communicating with Resend',
+      };
     }
   }
 
@@ -489,6 +499,11 @@ export async function sendBookingConfirmationEmail(data: BookingEmailData): Prom
       };
     } catch (smtpErr: any) {
       console.error('[EMAIL] Failed sending via SMTP:', smtpErr?.message || smtpErr);
+      return {
+        success: false,
+        provider: 'smtp',
+        error: smtpErr?.message || 'SMTP delivery failed',
+      };
     }
   }
 

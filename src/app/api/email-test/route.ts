@@ -38,7 +38,7 @@ export async function GET(request: Request) {
       recipient: to,
       language: lang,
       provider: result.provider,
-      messageId: result.messageId,
+      messageId: result.messageId || null,
       error: result.error || null,
       environmentStatus: {
         resendConfigured: hasResendKey,
@@ -46,10 +46,7 @@ export async function GET(request: Request) {
         resendKeyPreview: hasResendKey ? `${process.env.RESEND_API_KEY?.slice(0, 7)}...` : 'NOT SET',
         fromEmail: process.env.EMAIL_FROM || 'Istanora VIP <onboarding@resend.dev>',
       },
-      howToSetup: {
-        recommended: 'Add RESEND_API_KEY to Vercel Environment Variables (Free on resend.com).',
-        alternative: 'Add SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASS to Vercel Environment Variables.',
-      },
+      importantNotice: 'Resend ücretsiz test modunda (onboarding@resend.dev) sadece Resend hesabınızı açtığınız kendi e-posta adresinize gönderim yapabilirsiniz. Linkteki to= kısmına Resend hesabınızın e-postasını yazarak test ediniz.',
     });
   } catch (error: any) {
     return NextResponse.json(
